@@ -1,0 +1,11 @@
+.content {
+        height: calc(100vh - 60px);
+    }
+iframe {
+            border: none;
+            background: #616161;
+        }
+body {
+    color: rgb(255, 255, 255);
+    background: #2f2f2f;
+    }
