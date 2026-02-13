@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+    <h1>Protocolos y estándares relacionados:</h1>
+    <h2>HTTP (Hypertext Transfer Protocol)</h2>
+    <p>
+        El HTTP (Protocolo de Transferencia de Hipertexto)
+        es el lenguaje universal de la web, funcionando bajo
+        un modelo de cliente-servidor donde el navegador envía
+        una solicitud y el servidor devuelve un recurso. Su característica
+        principal es que es un protocolo sin estado (stateless), lo que
+        significa que cada interacción es independiente y el servidor no "recuerda"
+        al usuario por sí solo, algo que se suele solucionar mediante cookies o tokens.
+        La comunicación se basa en métodos específicos, como GET para obtener datos,
+        POST para enviarlos y PUT para actualizarlos, acompañados de códigos de estado
+        (como el famoso 404 para errores o el 200 para éxito). Hoy en día, su evolución
+        hacia HTTPS es obligatoria, ya que añade una capa de cifrado SSL/TLS que protege
+        la información durante el trayecto, garantizando que los datos no sean interceptados
+        ni alterados.
+    </p>
+    <h2>XML (eXtensible Markup Language)</h2>
+    <p>
+        XML (Lenguaje de Marcado Extensible) es un formato de texto diseñado para almacenar
+        y transportar datos de manera estructurada y legible tanto para humanos como para máquinas.
+        A diferencia de HTML, que se centra en la presentación, XML se enfoca en describir la
+        información mediante etiquetas personalizadas, lo que permite una gran flexibilidad. Es
+        ampliamente utilizado en servicios web, especialmente en SOAP, para definir mensajes y contratos
+        entre sistemas. Aunque ha sido desplazado en muchos casos por JSON debido a su simplicidad,
+        XML sigue siendo fundamental en entornos empresariales donde la validación rigurosa y la capacidad
+        de representar datos complejos son esenciales.
+    </p>
+    <h2>JSON (JavaScript Object Notation)</h2>
+    <p>
+        JSON (Notación de Objetos de JavaScript) es un formato de texto ligero y fácil de leer
+        que se utiliza para intercambiar datos entre un servidor y una aplicación web. A diferencia
+        de XML, JSON es más compacto y se basa en la sintaxis de objetos de JavaScript, lo que lo
+        hace especialmente popular en el desarrollo web moderno. Es ampliamente utilizado en servicios
+        REST debido a su simplicidad y eficiencia, permitiendo que los datos se transmitan rápidamente
+        y sean fácilmente parseados por los navegadores y aplicaciones móviles.
+    </p>
+    <h2>WSDL (Web Services Description Language)</h2>
+    <p>
+        WSDL (Lenguaje de Descripción de Servicios Web) es un formato XML que se utiliza para describir
+        los servicios web, especificando qué operaciones están disponibles, cómo se pueden invocar y qué
+        datos se esperan. Es fundamental en el contexto de los servicios SOAP, ya que actúa como un contrato
+        entre el proveedor del servicio y el consumidor, definiendo claramente las interfaces y los protocolos
+        de comunicación. Aunque su uso ha disminuido con la popularidad de REST, sigue siendo esencial en entornos
+        empresariales donde la formalidad y la estandarización son prioritarias.
+    </p>
+    <h2>UDDI (Universal Description, Discovery, and Integration)</h2>
+    <p>
+        UDDI (Descripción, Descubrimiento e Integración Universal) es un estándar para la publicación y descubrimiento
+        de servicios web. Funciona como un directorio donde los proveedores pueden registrar sus servicios y los consumidores
+        pueden buscar y descubrir servicios que se ajusten a sus necesidades. Aunque su adopción ha sido limitada en comparación
+        con otros estándares, UDDI representa un intento importante de crear un ecosistema de servicios web más dinámico y accesible.
+    </p>
+</body>
+</html>
