@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Implementaciones Exitosas de Servicios Web</h1>
+        <p>Análisis de estrategias corporativas basadas en interoperabilidad y escalabilidad.</p>
+    </header>
+
+    <section class="case-study">
+        <h2>1. Amazon: El Mandato de la API</h2>
+        <p>A principios de los 2000, Amazon pasó de ser una web monolítica a una infraestructura basada totalmente en servicios.</p>
+        <ul>
+            <li><strong>Implementación:</strong> Se obligó a todos los equipos a exponer sus funciones (inventario, carrito, catálogo) exclusivamente mediante interfaces de servicios web.</li>
+            <li><strong>Resultado:</strong> Esta modularidad permitió el nacimiento de <span class="highlight">AWS (Amazon Web Services)</span>, convirtiendo su infraestructura interna en un producto comercial líder.</li>
+        </ul>
+    </section>
+
+    <section class="case-study">
+        <h2>2. Netflix: Resiliencia con Microservicios</h2>
+        <p>Netflix gestiona millones de peticiones simultáneas en todo el mundo utilizando una arquitectura orientada a servicios altamente desacoplada.</p>
+        <ul>
+            <li><strong>Implementación:</strong> Uso de servicios REST independientes para cada función (recomendaciones, perfiles, reproducción).</li>
+            <li><strong>Resultado:</strong> Lograron una disponibilidad del <span class="highlight">99.99%</span>. Si el servicio de "sugerencias" falla, el usuario aún puede ver su película, ya que los servicios no dependen críticamente entre sí.</li>
+        </ul>
+    </section>
+
+    <section class="case-study">
+        <h2>3. Uber: El Ecosistema de Integración</h2>
+        <p>Uber es el ejemplo definitivo de cómo escalar un negocio integrando servicios web de terceros.</p>
+        <ul>
+            <li><strong>Implementación:</strong> Utiliza <strong>Google Maps API</strong> para mapas, <strong>Stripe</strong> para pagos y <strong>Twilio</strong> para notificaciones SMS.</li>
+            <li><strong>Resultado:</strong> Velocidad de mercado extrema. Uber se enfocó en su negocio principal mientras delegaba la complejidad técnica a especialistas mediante APIs.</li>
+        </ul>
+    </section>
+
+    <footer class="summary-box">
+        <h3>Claves del Éxito</h3>
+        <p>El análisis de estos casos demuestra que el uso correcto de servicios web permite:</p>
+        <ul>
+            <li><strong>Agilidad:</strong> Lanzar nuevas funciones en días.</li>
+            <li><strong>Especialización:</strong> No perder tiempo reinventando herramientas que otros ya ofrecen.</li>
+            <li><strong>Resiliencia:</strong> Sistemas que siguen funcionando aunque una parte falle.</li>
+        </ul>
+    </footer>
+</body>
+</html>
